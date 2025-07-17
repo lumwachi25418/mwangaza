@@ -1,0 +1,57 @@
+.homecontainer{
+      background-image: url('../images/home4.jpg');
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0; 
+    
+}
+.hero  li:hover{
+    background: aquamarine;
+    cursor: pointer;
+    padding: 20px;
+    background: grey;
+    
+
+  
+    
+}
+.hero{
+  
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 20px;
+    color: antiquewhite;
+    font: size 20px;
+   
+}
+li{
+    background-color: darkgray;
+    padding:10px;
+    border-radius:20px
+}
+.appealing{
+    /* border:2px solid white; */
+    width:25%;
+    box-shadow: 0 3px 10px wheat;
+    padding:20px;
+    margin-left: 30px;
+    border-radius:20px;
+    color:white;
+
+
+}
+.music{
+    background-color: white;
+    width:100px;
+    height:10px;
+    border-radius:10px;
+    margin:50px;
+    padding:10px;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+
+}
