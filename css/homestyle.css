@@ -1,37 +1,40 @@
-.homecontainer{
-      background-image: url('../images/home4.jpg');
-  background-size: cover cover;
+/* .homecontainer{
+  background-image: url('../images/homepage.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   margin: 0; 
+  background-color: white;
     
-}
+} */
+
 .hero  li:hover{
     background: aquamarine;
     cursor: pointer;
     padding: 20px;
-    background: grey;
+
     
 
   
     
 }
 .hero{
-  
+  background-color: brown;
     display: flex;
     list-style-type: none;
     justify-content: space-between;
     padding: 20px;
-    color: antiquewhite;
+    /* color: antiquewhite; */
     font: size 20px;
+    cursor: pointer;
    
 }
-li{
+/* li{
     background-color: darkgray;
     padding:10px;
     border-radius:20px
-}
+} */
 .appealing{
     /* border:2px solid white; */
     width:25%;
@@ -39,12 +42,13 @@ li{
     padding:20px;
     margin-left: 30px;
     border-radius:20px;
-    color:white;
+    color:black;
 
 
 }
 .music{
-    background-color: white;
+    background-color: black;
+    color: white;
     width:100px;
     height:10px;
     border-radius:10px;
@@ -54,4 +58,14 @@ li{
     display: flex;
     align-items: center;
 
+}
+.hero-right img{
+    width:400px;
+    height:400px;
+    size: 400px;
+    border-radius: 20px;
+}
+.hero-section{
+    display:flex;
+    gap:400px;
 }
