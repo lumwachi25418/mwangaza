@@ -1,16 +1,11 @@
-/* .homecontainer{
-  background-image: url('../images/homepage.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  margin: 0; 
-  background-color: white;
-    
-} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .hero  li:hover{
-    background: aquamarine;
+    background:black;
     cursor: pointer;
     padding: 20px;
 
@@ -19,31 +14,42 @@
   
     
 }
+.NAV{
+    margin: -20PX;
+
+}
 .hero{
   background-color: brown;
     display: flex;
     list-style-type: none;
     justify-content: space-between;
     padding: 20px;
-    /* color: antiquewhite; */
     font: size 20px;
     cursor: pointer;
+    color: goldenrod;
+    height: 100px;
+    margin: 20px;
+    font-size: larger;
+    text-decoration: none;
+
+
    
 }
-/* li{
-    background-color: darkgray;
-    padding:10px;
-    border-radius:20px
-} */
+.link{
+    text-decoration: none;
+    color: goldenrod;
+}
+
 .appealing{
-    /* border:2px solid white; */
-    width:25%;
+    width:30%;
     box-shadow: 0 3px 10px wheat;
-    padding:20px;
+    padding:40px;
     margin-left: 30px;
     border-radius:20px;
     color:black;
     justify-content: center;
+    height: 400px;
+  
 
 
 }
@@ -66,7 +72,38 @@
     size: 400px;
     border-radius: 20px;
 }
-.hero-section{
+.hero-section{ 
+    margin:50px;
     display:flex;
     gap:400px;
+    height:100vh;
+}
+.footer{
+    background-color: maroon;
+    height: 100px;
+    color: goldenrod;
+    display: flex;
+    font-size: larger;
+
+
+}
+.footer li{
+    list-style-type: none;
+    display: flex;
+
+}
+.btn:hover{
+    background-color: black;
+}
+.btn{
+    
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+    width:100px;
+    border-radius: 20px;
+    justify-content: center; 
+    align-items: center;
+    margin:30%;
+    padding: 10px;
 }

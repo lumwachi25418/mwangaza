@@ -1,22 +1,19 @@
 .container{
     margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
+    height: 100%;
 }
-/* body {
-  background-image: url('../images/bg1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  margin: 0; 
-} */
+
 
 .nav{
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    background-color: gray;
+    background-color:maroon;
     padding: 20px;
+    color:goldenrod; 
+    margin-top: -10px;
 }
 .nav li:hover{
     background: maroon;
@@ -31,8 +28,8 @@
     justify-content: space-around;
     gap:10px;
     font-size: bold;
-    /* color:white; */
     font: sans-serif;
+    height:100vh;
 
 }
 .mission1{
@@ -40,6 +37,36 @@
 
     border-radius: 20px;
     padding: 10px;
+    height:400px;
+    width:400px;
 }
-/* homepage */
+.footer{
+    background-color: maroon;
+    height: 100px;
+    color: goldenrod;
+    display: flex;
+    margin-bottom:-50px;
+
+
+}
+.footer li{
+    list-style-type: none;
+    display: flex;
+
+}
+.btn:hover{
+    background-color: black;
+}
+.btn{
+    
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+    width:100px;
+    border-radius: 20px;
+    justify-content: center; 
+    align-items: center;
+    margin:30%;
+    padding:10px;
+}
 
