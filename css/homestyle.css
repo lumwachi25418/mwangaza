@@ -69,14 +69,15 @@
 .hero-right img{
     width:400px;
     height:400px;
-    size: 400px;
+    size:500px;
     border-radius: 20px;
 }
 .hero-section{ 
     margin:50px;
     display:flex;
-    gap:400px;
     height:100vh;
+    width: 100vw;
+    justify-content: space-around;
 }
 .footer{
     background-color: maroon;
@@ -111,7 +112,4 @@
     margin:30%;
     padding: 10px;
 }
-/* .icon-class {
-  font-size: 24px;
-  color: #007bff;
-}    */
+ 
