@@ -14,8 +14,14 @@
     padding: 20px;
     color:goldenrod; 
     margin-top: -10px;
+    font-size: larger;
 }
-.nav li:hover{
+.container ul li a{
+    text-decoration: none;
+    color: goldenrod;
+
+}
+.nav ul li:hover{
     background: maroon;
     cursor: pointer;
     padding: 10px;
