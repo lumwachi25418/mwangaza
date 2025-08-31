@@ -4,6 +4,46 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .appealing {
+    width: 90%;
+  }
+
+  .music img {
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .music img {
+    max-width: 100%; 
+  }
+
+  .footer ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 .hero  li:hover{
     background:black;
     cursor: pointer;
@@ -50,7 +90,14 @@
 }
 
 .appealing{
-    font-size: larger;
+     font-size: larger;
+  max-width: 400px;
+  box-shadow: 0 3px 10px wheat;
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+  background: rgba(0,0,0,0.4);
+    /* font-size: larger;
     width:30%;
     box-shadow: 0 3px 10px wheat;
     padding:50px;
@@ -58,7 +105,7 @@
     border-radius:20px;
     color:white;
     justify-content:flex-start;
-    height: 400px;
+    height: 400px; */
   
 
 
@@ -88,6 +135,7 @@
 
 }
 
+
 .hero-section{ 
     background-image: url('../images/herosection.jpg');
     display:flex;
@@ -114,14 +162,15 @@ background-size: cover;
     font-size: larger;
     padding:20px;
     justify-content: space-between;
-
+flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
 
 }
 .footer ul{
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    gap:20em;
 
 }
 .btn:hover{
