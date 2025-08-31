@@ -35,7 +35,8 @@
   }
 
   .music img {
-    max-width: 100%; 
+    max-width: 100%;
+      height:auto
   }
 
   .footer ul {
