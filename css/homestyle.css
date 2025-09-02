@@ -19,6 +19,14 @@
     max-width: 45%;
   }
 }
+@media screen and (max-width: 400px) {
+    .music{
+        flex-direction:column;
+        max-height:auto
+    }
+}
+
+
 
 @media screen and (max-width: 400px) {
   .hero {
