@@ -21,8 +21,10 @@
 }
 @media screen and (max-width: 400px) {
     .music{
+        justify-content: flex-start;
         flex-direction:column;
-        max-height:auto
+        max-height:auto;
+        max-width: auto;
     }
 }
 
