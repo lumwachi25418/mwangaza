@@ -187,4 +187,17 @@ flex-direction: column;
     margin:25%;
     padding: 10px;
 }
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 0 3px 10px grey;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+    gap: 15px;
+
+}
  
