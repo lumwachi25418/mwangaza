@@ -60,6 +60,7 @@
     cursor: pointer;
     padding: 20px;
     gap: 20px;
+   
     
 }
 .NAV{
@@ -84,6 +85,8 @@
     margin: 20px;
     font-size: larger;
     text-decoration: none;
+    position:sticky;
+    top:0;
 
 
    
