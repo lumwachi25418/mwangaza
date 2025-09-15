@@ -48,13 +48,16 @@
     max-width: 100%;
       height:auto
   }
-
+ 
   .footer ul {
     flex-direction: column;
     gap: 10px;
   }
 }
-
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: wheat;
+}
 .hero  li:hover{
     background:black;
     cursor: pointer;
@@ -69,7 +72,7 @@
 }
 .NAV ul li a{
     text-decoration: none;
-        color: goldenrod;
+    color: goldenrod;
 
 }
 .hero{
