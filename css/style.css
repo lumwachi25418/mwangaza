@@ -27,6 +27,7 @@ align-items: center;
     color:goldenrod; 
     margin-top: -10px;
     font-size: larger;
+    width: 100%;
 }
 .container ul li a{
     text-decoration: none;
@@ -65,6 +66,7 @@ align-items: center;
     color: goldenrod;
     display: flex;
     margin-bottom:-50px;
+    width: 100%;
 
 
 }
