@@ -14,7 +14,7 @@ const images = [
 ]
 const randomImage=document.getElementById('random')
 const imageMap=images.map((img)=>{
-    return `<img src=${img} alt="random image" max-width="100vh" max-height="600px">`
+    return `<img src=${img} alt="random image" max-width="100vh" max-height="100vh">`
 })
 function changeImage(){
     const randomIndex=Math.floor(Math.random()*images.length)
