@@ -47,6 +47,19 @@ body{
     margin: 20px;
     gap: 20px;
    }
+   /* .header{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 20px;
+   } */
+    .Hero{
+        color: goldenrod;
+        text-align: center;
+        height: 100vh;
+        padding: 20px;
+        margin: 20px;
+        font-size: larger;
+        gap: 20px;}
 .footer{
     background-color: maroon;
     height: 100px;
