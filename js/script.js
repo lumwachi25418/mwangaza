@@ -9,7 +9,30 @@ const images = [
 'images/treasurer.jpeg',
 'images/hero3.jpg',
 'images/hero4.jpg',
-'images/hero5.jpg',
+'images/mc1.jpeg',
+'images/mc2.jpeg',
+'images/mc3.jpeg',
+'images/mc4.jpeg',
+'images/mc5.jpeg',
+'images/mc6.jpeg',
+'images/mc7.jpeg',
+'images/mc8.jpeg',
+'images/mc9.jpeg',
+'images/mc10.jpeg',
+'images/mc11.jpeg',
+'images/mc12.jpeg',
+'images/mc13.jpeg',
+'images/mc14.jpeg',
+'images/mc15.jpeg',
+'images/mc16.jpeg',
+'images/mc17.jpeg',
+'images/mc18.jpeg',
+'images/mc19.jpeg',
+
+
+
+
+
 
 ]
 const randomImage=document.getElementById('random')

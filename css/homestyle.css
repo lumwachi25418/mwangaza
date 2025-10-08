@@ -124,40 +124,20 @@ body{
   justify-content: center;
   padding: 40px;
   object-fit: cover;
+  justify-content: space-between;
 }
-/* .music{
-    justify-content: space-evenly;
-     display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px auto;
-  max-width:100%; 
-  max-height: 4;
-  border-radius: 20px; 
-  overflow: hidden; 
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
-   
 
-} */
-/* .testimonials img{
-width: 100%;
-  height:auto;
-  object-fit: cover;
-  transition: transform 0.4s ease-in-out;
-} */
-/* .testimonials img:hover{
-      transform: scale(1.05); 
-
-} */
  .testimonials img{
-  width:50vw;
-
-  height:50vw;
+  width:30vw;
+float: left;
+  height:30vw;
   overflow:hidden;
   border-radius:0;
   object-fit: cover;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);}
-
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: transform 0.4s ease-in-out;
+  border-radius: 20px;
+}
 
 .hero-section{ 
     background-image: url('../images/herosection.jpg');
@@ -214,7 +194,8 @@ flex-direction: column;
 .form{
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    height :450px;
+    width: 450px;
     margin: 20px auto;
     padding: 50px;
     box-shadow: 0 3px 10px grey;
@@ -222,6 +203,7 @@ flex-direction: column;
     background-color: brown;
     color: white;
     gap: 15px;
+    margin-bottom: 20px;
 
 }
  
