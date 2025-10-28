@@ -1,0 +1,23 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height :450px;
+    width: 450px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 3px 10px grey;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+    gap: 15px;
+    
+
+}

@@ -37,7 +37,7 @@ const images = [
 ]
 const randomImage=document.getElementById('random')
 const imageMap=images.map((img)=>{
-    return `<img src=${img} alt="random image" max-width="100vh" max-height="100vh">`
+    return `<img src=${img} alt="random image" max-width="100vw" max-height="100vh">`
 })
 function changeImage(){
     const randomIndex=Math.floor(Math.random()*images.length)
@@ -46,3 +46,10 @@ function changeImage(){
 changeImage()
 setInterval(changeImage,2000)
 
+
+    function showAlert() {
+    const button = document.querySelector('.button');
+    button.addEventListener('click', function() {
+window.location.href='Form.html'    });
+}
+showAlert();
