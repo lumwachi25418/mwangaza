@@ -72,6 +72,12 @@
     flex-direction: column;
     gap: 10px;
   }
+  .testimonials {flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    margin: 10px;
+
+  }
  
 }
 body{
@@ -88,11 +94,16 @@ body{
 }
 .NAV{
     margin: -20PX;
-
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 .NAV ul li a{
     text-decoration: none;
     color: goldenrod;
+
 
 }
 .hero{
@@ -148,9 +159,9 @@ body{
 }
 
  .testimonials img{
-  width:40vw;
+  width:60vw;
 float: left;
-  height:80vh;
+  height:100vh;
   border-radius:0;
   object-fit: cover;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);

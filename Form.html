@@ -4,18 +4,55 @@
     <meta charset="UTF-8">     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">     
     <title>Form Example</title> 
-    <link rel="stylesheet" href="./css/formstyle.css">    
+    <link rel="stylesheet" href="./css/formstyle.css"> 
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (
+function sendForm() {
+  emailjs.init("_vO72uLus83FhBIhp");
+})();
+
+</script>   
 </head>     
 <body> 
     <div class='form-container'>    
-    <form id ='subscribe'class="form">
-                <h2>Contact us</h2>
+    <form id ='subscribe-form'class="form">
+                <!-- <h2>Contact us</h2>
 
-            
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <button type="submit">Submit</button>
+            <img  class='close'src="images/xmark-solid-full.svg">
+            <input type="email" placeholder="email">
+            <input type="textarea" placeholder="message">
+            <button type="submit" class="submit" onClick="sendForm">Submit</button> -->
+            <form id="subscribe-form">
+            <img  class='close'src="images/xmark-solid-full.svg">
+
+  <input 
+    type="text" 
+    name="from_name" 
+    placeholder="Your Name" 
+    required
+  />
+
+  <input 
+    type="email" 
+    name="email" 
+    placeholder="Your Email" 
+    required
+  />
+
+  <textarea 
+    name="message" 
+    placeholder="Your Message" 
+    required
+  ></textarea>
+
+  <button type="submit" class="submit">Send</button>
+</form>
+
             </form>  
         </div>  
+        <script src="js/form.js"></script>
 </body>     
 </html>         

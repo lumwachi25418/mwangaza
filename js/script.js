@@ -41,7 +41,7 @@ const imageMap=images.map((img)=>{
 })
 function changeImage(){
     const randomIndex=Math.floor(Math.random()*images.length)
-    randomImage.src=images[randomIndex]
+    randomImage.src=(images[randomIndex])
 }
 changeImage()
 setInterval(changeImage,2000)
@@ -53,3 +53,4 @@ setInterval(changeImage,2000)
 window.location.href='Form.html'    });
 }
 showAlert();
+
