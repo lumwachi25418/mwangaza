@@ -56,6 +56,7 @@
   .hero {
     flex-direction: column;
     text-align: center;
+    padding: 0;
   }
 
   .hero-section h1 {
@@ -91,6 +92,7 @@ body{
     padding: 20px;
     gap: 20px;
     font-size: larger;
+
    
     
 }
@@ -123,6 +125,7 @@ body{
     text-decoration: none;
     position:sticky;
     top:0;
+    padding: 0;
 
 
    
@@ -162,13 +165,10 @@ body{
 }
 
  .testimonials img{
-  width:60vw;
-float: left;
-height:100vh;
+/* height:100vh; */
 border-radius:0;
 object-fit:contain;
 max-width: 100%;
-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 transition: transform 0.4s ease-in-out;
 border-radius: 10px;
 position:relative;
