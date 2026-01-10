@@ -164,13 +164,14 @@ body{
  .testimonials img{
   width:60vw;
 float: left;
-  height:100vh;
-  border-radius:0;
-  object-fit: cover;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  transition: transform 0.4s ease-in-out;
-  border-radius: 10px;
-  position:relative;
+height:100vh;
+border-radius:0;
+object-fit:contain;
+max-width: 100%;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+transition: transform 0.4s ease-in-out;
+border-radius: 10px;
+position:relative;
 }
 
 .hero-section{ 
