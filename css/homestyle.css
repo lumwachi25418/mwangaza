@@ -24,8 +24,9 @@
     height:max-content;
   }
   .testimonials img{
-    width: 100vh;
-    height:100vw;
+    padding: 10px;
+    min-width: 100vh;
+    min-height:100vw;
 
   }
 }
