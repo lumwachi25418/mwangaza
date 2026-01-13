@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/homestyle.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
+ <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (
+function sendForm() {
+  emailjs.init("_vO72uLus83FhBIhp");
+})();
+
+</script>    
 </head>
 <body>
     <div class="NAV">
@@ -43,21 +53,48 @@
              <div  class="testimonials">
                 <img id="random" src={image} width="600px" height="600px">
             </div>
+             <!-- <video controls width="600">
+        <source
+            src= '
+          https://www.youtube.com/watch?v=4i3OJTCE3QA          ' 
+          src="video.mp4" type="video/mp4">
+  <source src="video.webm" type="video/webm">
+          type="video/mp4">
+        Your browser does not support the video tag.
+    </video> -->
             
            
 
 
-           <div>
-            <form id ='subscribe'class="form">
-                <h2>Contact us for bookings</h2>
+          
+         <form id ='subscribe-form'class="form">
+               
+            <form id="subscribe-form">
 
-            
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea rows="5" cols="33" placeholder="Enter your comment here..."></textarea> 
-            <button type="submit">Submit</button>
+  <input 
+    type="text" 
+    name="from_name" 
+    placeholder="Your Name" 
+    required
+  />
+
+  <input 
+    type="email" 
+    name="email" 
+    placeholder="Your Email" 
+    required
+  />
+
+  <textarea 
+    name="message" 
+    placeholder="Your Message" 
+    required
+  ></textarea>
+
+  <button type="submit" class="submit">Send</button>
+</form>
+
             </form>  
-        </div>  
   
         
         </div>
@@ -72,6 +109,8 @@
             </div>
 
         <script src="js/script.js"></script>
+        <script src="js/email.js"></script>
+
 
 </body>
 </html>

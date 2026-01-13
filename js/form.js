@@ -1,33 +1,4 @@
-// function FormSubmit(){
-//     const Submit=document.querySelector('.submit')
-//     Submit.addEventListener('click',function(){
-//         alert('Subscription successful!')
-//     })
-//     (
-// function sendForm() {
-//   emailjs.init("_vO72uLus83FhBIhp");
-// })();
 
-// var templateParams = {
-//   from_name: 'Sender',
-//   message: 'Test Message'
-// };
-
-// emailjs.sendForm('service_ai2ei1g', 'template_woxedrj', templateParams)
-//   .then(function (response) {
-//     console.log('SUCCESS!', response.status, response.text);
-//   }, function (error) {
-//     console.log('FAILED...', error);
-//   }); 
-// }
-// FormSubmit()
-// function closeForm(){
-//     const close=document.querySelector('.close')
-//     close.addEventListener('click',function(){
-//    window.location .href='index.html'   
-//     })
-// }
-// closeForm()
 document.addEventListener('DOMContentLoaded', function () {
 
   // Initialize EmailJS
