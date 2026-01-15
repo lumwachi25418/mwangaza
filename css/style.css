@@ -11,16 +11,8 @@ align-items: center;
     gap: 20px;
   }
 }
-@media screen and (max-width:768px) {
-    .nav{
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-        gap:10px;
-    ;
-    }
+
     
-}
 *{
     margin: 0 auto;
     padding: 0;
@@ -34,28 +26,7 @@ body{
 }
 
 
-.nav{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    background-color:maroon;
-    padding: 20px;
-    color:goldenrod; 
-    margin-top: -10px;
-    font-size: larger;
-    width: 100%;
-}
-.container ul li a{
-    text-decoration: none;
-    color: goldenrod;
 
-}
-.nav ul li:hover{
-    background: maroon;
-    cursor: pointer;
-    padding: 10px;
-
-}
 .mission{
     display:flex;
     padding: 20px;
