@@ -4,55 +4,121 @@
     padding:0;
 }
 body{
-    background-color: wheat
+    background-color: wheat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
    
 
 }
-.Nav  ul li{
-    list-style-type: none;
-    padding: 10px;
-    font-size: larger;
+nav{
+  background-color: brown;
+  height: 100px;
+  width: 100%;
 }
-.nav{
-    display: flex;
-    justify-content: space-around;
+label.logo{
+  color: goldenrod;
+  font-size: 5em;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  size : 5em;
+  max-height:100px;
+  max-width: auto;
+  margin: 30px
+;
+border-radius: 100%;
 }
-.Nav ul li a{
+label.logo:hover{
+  cursor: pointer ;
+
+}
+  nav ul{
+    float:right;
+    margin-right:20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
     color: goldenrod;
+    font-size: 17px;
     text-decoration: none;
-    list-style-type: none;
-}
-.Nav{
-    list-style-type: none;
-    background-color:maroon;
-    padding: 20px;
-    color:goldenrod; 
-    margin-top: -10px;
-    font-size: larger;
-    width: 100%;
-}
-.Nav ul li:hover{
-    background:black;
-    cursor: pointer;
-    padding: 10px;
-    text-decoration: none;}
-    .Hero{
-        min-height: 100vh;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform:uppercase
+  }
+  a.active,a:hover{
+    background: goldenrod;
+    color: brown;
+    transition: .5s;
+  }
+  .checkbtn{
+   
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media(max-width:1050px){
+    label.logo{
+    padding-left: 30px;
+    font-size: 3.5em;
     }
-   .content{
-    justify-content:center;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
-    gap: 20px;
-   }
-   /* .header{
-    font-size: xx-large;
+    .nav ul li a{
+      font-size: 16px;
+    }
+  }
+@media (max-width: 890px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .checkbtn {
+    display: block;
+    color: goldenrod;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background: brown;
+    top: 80px;
+    right: -100%;
     text-align: center;
-    margin-bottom: 20px;
-   } */
-    .Hero{
+    transition: right 0.4s ease;
+    z-index: 999;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 40px 0;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul {
+    right: 0;
+  }
+  label.logo{
+    font-size: 3em;
+    margin: 20px;
+  }
+}
+
+   .Hero{
         color: goldenrod;
         text-align: center;
         height: 100vh;

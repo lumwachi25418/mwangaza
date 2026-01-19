@@ -25,19 +25,12 @@ label.logo{
   margin: 30px
 ;
 border-radius: 100%;
-}label.logo:hover{
+}
+label.logo:hover{
   cursor: pointer ;
 
 }
-/* .logo {
-  width: 300px;
-  height: 300px;
-  background-image: url('/images/mwangaza logo.jpg');
-  background-size: 300px;
-  background-repeat: no-repeat;
-  background-position: center;
 
-}    */
   nav ul{
     float:right;
     margin-right:20px;
