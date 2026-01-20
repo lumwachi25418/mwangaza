@@ -55,12 +55,14 @@ function sendForm() {
              <div  class="testimonials">
                 <img id="random" src={image} width="600px" height="600px">
             </div>
-             <video controls width="600">
+            
+             <video controls width="600" autoplay loop muted id="background-video">
+              
         <source
             src= '
           https://www.youtube.com/watch?v=4i3OJTCE3QA          ' 
           src="video.mp4" type="video/mp4">
-  <source src="video.webm" type="video/webm">
+  <source src="video.webm" type="video/webm"
           type="video/mp4">
         Your browser does not support the video tag.
     </video> 
@@ -101,14 +103,20 @@ function sendForm() {
         
         </div>
        
-        <div class="footer">
-            <ul>
-                <li>phonenumber</li>
-                <li>email-mwangazamelodies@gmail.com</li>
-                <li class="link-button"><a href='https://www.youtube.com/@MwangazaMelodiesSingers'>click to youtube channel</a></li>
-            </ul>
-        </div>
+       
             </div>
+         <div class="footer">
+  <ul class="footer-list">
+    <li>Phone: 07XXXXXXXX</li>
+    <li>Email: mwangazamelodies@gmail.com</li>
+    <li>
+      <a class="link-button" href="https://www.youtube.com/@MwangazaMelodiesSingers">
+        <i class="fa-brands fa-youtube"></i> YouTube
+      </a>
+    </li>
+  </ul>
+</div>
+
 
         <script src="js/script.js"></script>
         <script src="js/email.js"></script>

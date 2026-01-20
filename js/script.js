@@ -44,7 +44,7 @@ function changeImage(){
     randomImage.src=(images[randomIndex])
 }
 changeImage()
-setInterval(changeImage,2000)
+setInterval(changeImage,3000)
 
 
     function showAlert() {

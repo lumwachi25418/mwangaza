@@ -49,7 +49,7 @@ label.logo:hover{
     text-transform:uppercase
   }
   a.active,a:hover{
-    background: goldenrod;
+    background: white;
     color: brown;
     transition: .5s;
   }
@@ -183,11 +183,7 @@ label.logo:hover{
 
 
  
-  .footer ul {
-    flex-direction: column;
-    gap: 10px;
-    size:3.5em;;
-  }
+ 
   .testimonials {
    
     width: 100%;
@@ -256,6 +252,7 @@ transition: transform 0.4s ease-in-out;
 border-radius: 10px;
 }
 #random {
+  opacity: 1;
   transition: opacity 0.5s ease;
 }
 
@@ -277,25 +274,9 @@ background-size: cover;
    
 }
 
-.footer{
-    background-color: maroon;
-    height: 100px;
-    color: goldenrod;
-    display: flex;
-    font-size: larger;
-    padding:0;
-    justify-content: space-between;
-flex-direction: column;
-    text-align: center;
-    margin-top: 20px;
 
-}
-.footer ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
 
-}
+
 .btn:hover{
     background-color: black;
 }
@@ -341,16 +322,60 @@ flex-direction: column;
     align-self: flex-end;
     cursor: pointer;
 }
-.link-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color:goldenrod;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+.footer {
+  background-color: maroon;
+  color: goldenrod;
+  padding: 20px;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-list li {
   font-size: 16px;
+}
+
+/* Social button */
+.link-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: goldenrod;
+  color: maroon;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-button i {
+  font-size: 20px;
+}
+
+.link-button:hover {
+  background-color: white;
+  color: maroon;
+}
+#background-video {
+  /* position: fixed; */
+  right: 0;
+  bottom: 0;
+  min-width: 30%;
+  min-height: 30%;
+  z-index: -1;
+  object-fit: cover;
 }   
+  @media (max-width: 600px) {
+  .footer-list {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
  

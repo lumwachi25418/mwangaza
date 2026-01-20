@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     emailjs.sendForm(
       'service_ai2ei1g',
-      'template_woxedrj',
+      'template_woxedrj'
       this
     ).then(
       function () {
