@@ -5,6 +5,15 @@
     list-style: none;
     box-sizing: border-box;
 }
+@media (max-width:400px){
+    body{
+        font-size: 14px;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;  
+    }
+  
+}
 body{
   font-family:monospace
 }
