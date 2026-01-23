@@ -9,9 +9,13 @@ body{
     padding: 0;
     margin: 0;  
     box-sizing: border-box;
-   
+ 
 
 }
+.newscontainer{
+ min-height: 100vh;
+}  
+
 nav{
   background-color: brown;
   height: 100px;
@@ -121,12 +125,14 @@ label.logo:hover{
    .Hero{
         color: goldenrod;
         text-align: center;
-        height: 100vh;
         padding: 20px;
         margin: 20px;
         font-size: larger;
-        gap: 20px;}
+        gap: 20px;
+      flex:1;
+      }
 .footer {
+  float: bottom;
   background-color: maroon;
   color: goldenrod;
   padding: 20px;
@@ -140,12 +146,17 @@ label.logo:hover{
   flex-wrap: wrap;
   gap: 20px;
 }
+@media (max-width: 600px) {
+  .footer-list {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 .footer-list li {
   font-size: 16px;
 }
 
-/* Social button */
 .link-button {
   display: flex;
   align-items: center;
@@ -165,4 +176,27 @@ label.logo:hover{
 .link-button:hover {
   background-color: white;
   color: maroon;
+}
+.news-box{
+  display: flex;
+    width: 100%;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0 3px 10px grey;
+    border-radius: 20px;
+    background-color: wheat;
+    color: brown;
+    gap: 15px;
+    .link-button{
+      margin-top: 20px;
+      width: 150px;
+    }
+  
+    
+}
+@media (max-width: 768px){
+  .news-box{
+    flex-direction: column;
+    width: 90%;
+  }
 }
