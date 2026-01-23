@@ -198,6 +198,7 @@ label.logo:hover{
   .news-box{
     flex-direction: column;
     width: 90%;
+    padding: 10px;
   }
   .news-box img{
     width: 90%;
