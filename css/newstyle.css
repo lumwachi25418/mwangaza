@@ -199,4 +199,8 @@ label.logo:hover{
     flex-direction: column;
     width: 90%;
   }
+  .news-box img{
+    width: 100%;
+    height: auto;
+  }
 }
