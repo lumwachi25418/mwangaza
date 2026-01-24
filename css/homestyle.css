@@ -301,6 +301,22 @@ background-size: cover;
     margin:25%;
     padding: 10px;
 }
+.image-wrapper{
+  position: relative;
+  width: 50%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625) */
+  height: 0;
+  overflow: hidden;
+
+}
+.image-wrapper img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
 
  .form-container{
     display: flex;
