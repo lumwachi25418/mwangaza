@@ -284,7 +284,7 @@ border-radius: 10px;
 }
 
 .hero-section{ 
-  background-image: url('../images/mwangazamelodies.jpeg');
+  background-image: url('../images/herosection.jpg');
   display:flex;
   height:fit-content;
   background-size: cover;         
@@ -300,6 +300,11 @@ border-radius: 10px;
 
 
    justify-content: space-around;
+}
+.hero-section h1,hero-section p{
+  position: relative;
+  z-index: 2;
+  color: white; 
 }
 .overlay{
   position: absolute;
