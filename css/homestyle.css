@@ -131,6 +131,7 @@ label.logo:hover{
     flex-direction: column;
     text-align: center;
     padding: 30px;
+
   }
 
   .appealing {
@@ -215,6 +216,7 @@ body{
     font-size: larger;
 
    
+ 
     
 }
 
@@ -225,6 +227,8 @@ body{
 }
 .header{
     margin-bottom: 20px;
+    font: poppins;
+
 }
 
 .appealing{
@@ -239,6 +243,20 @@ body{
   
 
 
+}
+.hero-section{
+    flex: 1;
+    padding: 20px;
+} 
+.hero-section h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero-section p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 .music{
   display: flex;
@@ -266,10 +284,10 @@ border-radius: 10px;
 }
 
 .hero-section{ 
-    background-image: url('../images/mwangazamelodies.jpeg');
-    display:flex;
-    height:fit-content;
-background-size: cover;         
+  background-image: url('../images/mwangazamelodies.jpeg');
+  display:flex;
+  height:fit-content;
+  background-size: cover;         
   background-position: center;    
   background-repeat: no-repeat;  
   min-height: 100vh;             
@@ -280,7 +298,18 @@ background-size: cover;
   position: relative;
   color: white; 
 
-   
+
+   justify-content: space-around;
+}
+.overlay{
+  position: absolute;
+  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
 }
 
 
