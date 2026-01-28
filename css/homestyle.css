@@ -136,6 +136,7 @@ label.logo:hover{
 
   .appealing {
     width: 90%;
+    padding: 20px;
   }
 .music{
   justify-content: center;
@@ -230,6 +231,11 @@ body{
     font: poppins;
 
 }
+.header:hover{
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
 .appealing{
      font-size: larger;
@@ -284,7 +290,7 @@ border-radius: 10px;
 }
 
 .hero-section{ 
-  background-image: url('../images/herosection.jpg');
+  background-image: url('../images/mwangazamelodies.jpeg');
   display:flex;
   height:fit-content;
   background-size: cover;         
