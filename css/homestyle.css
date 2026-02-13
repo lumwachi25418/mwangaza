@@ -170,7 +170,6 @@ border-radius: 20px; }
   color: goldenrod;
   padding: 20px;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   }
   .footer-list ul li a {
@@ -186,7 +185,11 @@ border-radius: 20px; }
   }
 
 
-
+.footer {
+  background-color: maroon;
+  color: goldenrod;
+  padding: 20px;
+  }
 
 .footer-list {
   list-style: none;
@@ -262,7 +265,7 @@ border-radius: 20px; }
     justify-content: center;
      align-items: center;
      margin: 0;
-     border-radius: 20px;
+     border-radius: ;
 }
   .form {
     width: 90%;
@@ -347,7 +350,12 @@ height: auto;}
       margin-bottom: 50px;
 
   }
+  /* .testimonials img{
+   min-width: 100%;
+   min-height: 100%;
+   object-fit: cover;
 
+  } */
 }
 @media (max-width: 890px) {
   *{
@@ -401,36 +409,7 @@ height: auto;}
         padding:0;
         box-sizing: border-box;  
     }
-    .music iframe{
-        width: 100%;
-        max-width: 350px;
-        padding: 20px; 
-         justify-content: center;
-      align-items: center;
-      margin: 0;
-      border-radius: 20px;
-    }
-     .form {
-    width: 90%;
-    max-width: 350px;
-    padding: 50px;
-     justify-content: center;
-      align-items: center;
   
-}
-}
-.footer {
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-between; 
-    padding: 20px; 
-    margin: 20px;
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    position:relative;
-    bottom: 0;
-    transform: none;
 }
  @media(max-width:1050px){
     label.logo{
