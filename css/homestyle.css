@@ -170,6 +170,7 @@ border-radius: 20px; }
   color: goldenrod;
   padding: 20px;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   }
   .footer-list ul li a {
@@ -185,11 +186,7 @@ border-radius: 20px; }
   }
 
 
-.footer {
-  background-color: maroon;
-  color: goldenrod;
-  padding: 20px;
-  }
+
 
 .footer-list {
   list-style: none;
@@ -420,6 +417,20 @@ height: auto;}
      justify-content: center;
       align-items: center;
   
+}
+}
+.footer {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between; 
+    padding: 20px; 
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    position:relative;
+    bottom: 0;
+    transform: none;
 }
  @media(max-width:1050px){
     label.logo{
