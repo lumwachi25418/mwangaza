@@ -4,7 +4,7 @@
     flex-direction: column;
     text-align: center;
     min-width: 45%;
-    height: auto;
+    height: 100vh;
     min-height:unset; ;
 align-items: center;
     justify-content: center;
@@ -154,6 +154,31 @@ label.logo:hover{
   }
  
 }
+@media (max-width:400px){
+    body{
+        font-size: 14px;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;  
+    }
+    label.logo img{
+        width:50px;
+        height:50px;
+    }
+    label.logo{
+        font-size: 2em;
+        margin: 20px;
+    } 
+    .mission1{
+        width:100%;
+        height: fit-content ;
+        margin: auto;
+      }
+      .hero{
+        height: auto;
+        min-height: unset;
+      }
+  }
 
 
 
@@ -257,7 +282,7 @@ h1{
 }
 .gallery-grid img{
     width: 100%;
-    height: 220px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     transition: transform 0.3s ease;
